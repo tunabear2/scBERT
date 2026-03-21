@@ -37,3 +37,5 @@ predict.py 명령어 python predict.py --data_path pbmc_ready_for_predict.h5ad -
 finetune.py 명령어 python -m torch.distributed.launch --nproc_pre_node=1 finetune.py --data_path "fine-tune_data_path" --model_path "pretrained_model_path" --batch_size 1 --grad_acc 180
 
 scbert(change form) 명령어 python scbert.py pbmc1k_norm_log1p.h5ad panglao_10000.h5ad pbmc_ready_for_predict.h5ad  python scbert.py "바꾸려는 파일" "기준 파일" "출력파일 이름"
+
+export_csv.py 명령어  python export_csv.py "output_data/pbmc1k_pre.h5ad" result_expression.csv
