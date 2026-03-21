@@ -27,6 +27,8 @@ pip install legacy-api-wrap==1.2 get-version==2.1
 pip install local-attention==1.4.3
 pip install performer-pytorch==1.1.4
 pip install product-key-memory==0.1.10
+
+사용 환경에 따라 gpu 관련 torch 버전이 달라질 수 있음.
 # 리눅스 기반 설치 프로그램.
 # fine-tune 실행 시에 셋팅 상태 . RTX 3060 Ti
 # 명령어
